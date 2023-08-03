@@ -1,0 +1,40 @@
+/* Z-index
+it decide the stack level of elements
+overlapping elements with a larger z-index cover those with a smaller one
+
+z-index: auto(0)
+z-index: 1/2/...
+z-index:-1/-2/...*/
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    position: static;
+    /* by default */
+
+}
+
+#box2{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    z-index: 1;
+}
+
+#box3{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    z-index: -1;
+}
+
+#box4{
+    position: fixed;
+    top: 50px;
+}

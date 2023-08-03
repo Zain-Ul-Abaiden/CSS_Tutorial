@@ -1,0 +1,25 @@
+/* Units in CSS
+Relative Units
+1) % -- it is often used to define a size as relative to an element's parent object.
+width: 30%;
+margin-left: 50%;
+
+2) em -- links with parent size
+
+3) rem -- font size of the root element */
+
+#box1{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#box2{
+    height: 50px;
+    width: 30%;
+    background-color: yellowgreen;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 5rem;
+}
