@@ -1,0 +1,21 @@
+/* Units in CSS 
+=> Absolute
+1) pixels (px) 
+96px = 1 inch
+font-size
+line-height
+tex-transform
+upercase/lowercase/capitalize/none*/
+
+#one{
+    font-size: 25px;
+}
+
+#two{
+    font-size: 10px;
+}
+
+#three{
+    line-height: 50px;
+    text-transform: capitalize;
+}

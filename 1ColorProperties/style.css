@@ -1,0 +1,43 @@
+/* Selectors
+1) Universal Selector *{}
+2) Element Selector h1{}
+3) Id Selector #myid{}
+5) Class Selector .myclass{} */
+
+
+/* Color Properties */
+h3{
+    color: blue;
+}
+
+p{
+    /* rgb means red green blue, you can change each values from 0 to 255 */
+    color: rgb(140, 20, 150);
+}
+
+/* Set multiple properties for one tag */
+button{
+    /* you can set your color using #000000 to #ffffff */
+    color: #ff0000;
+    background-color: snow;
+}
+
+/* Background Color Properties */
+
+body{
+    background-color: mintcream;
+}
+
+#heading1{
+    color: brown;
+}
+#heading2{
+    color: palevioletred;
+}
+#heading3{
+    color: orange;
+}
+
+.myClass{
+    color: teal;
+}

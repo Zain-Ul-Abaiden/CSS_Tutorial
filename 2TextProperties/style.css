@@ -1,0 +1,57 @@
+/* Text Properties
+=> text-align
+1) left
+2) right
+3) center 
+
+=> text-decoration
+1) underline
+2) overline
+3) line-through
+
+=> font-weight
+1) normal
+2) bold
+3) bolder
+4) lighter
+100 to 900
+
+=> font-family
+1) arial
+2) roboto
+*/
+
+h1{
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-color: yellow;
+    text-decoration-style: dashed;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#id1{
+    font-weight: 100;
+}
+
+#id2{
+    font-weight: bold;
+}
+
+#id3{
+    font-weight: lighter;
+}
+
+#one{
+    font-family: Arial;
+}
+
+#two{
+    font-family:'Times New Roman', Times, serif;
+}

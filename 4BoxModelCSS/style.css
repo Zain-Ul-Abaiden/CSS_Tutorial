@@ -1,0 +1,79 @@
+/* Box Model in CSS
+1) Hight
+2) Width
+3) Border
+4) Padding
+5) Margin */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(199, 163, 234);
+    border-width: 3px;
+    border-style: dashed;
+    border-color: black;
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: rgb(162, 230, 24); */
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* padding: 25px; all side */
+    /* padding: 1px 2px 3px 4px; top right bottom left */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    /* margin: 25px; all side */
+    /* margin: 1px 2px 3px 4px; top right bottom left */
+}
+
+#outside{
+    height: 200px;
+    width: 100px;
+    border: 4px solid black;
+    border-color: black;
+background-color: aliceblue;
+}
+
+#red{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px 0px 0px 0px ;
+    background-color: red;
+    border: 2px solid black;
+}
+
+#yellow{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 50px 0px 0px 0px ;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+#green{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 50px 0px 0px 0px ;
+    background-color: green;
+    border: 2px solid black;
+}
