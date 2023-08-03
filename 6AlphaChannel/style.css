@@ -1,0 +1,15 @@
+/* Alpha Channel
+opacity(0 to 1)
+
+RGBA
+color: rgba(255,0,0,0.5)
+color: rgba(255,0,0,1) */
+
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    background-color: rgba(0,255,0,0.5);
+}
