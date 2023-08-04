@@ -1,0 +1,75 @@
+/* Animation
+to animate CSS elements
+
+@keyframe myName{
+    from {font-size : 20px;}
+    to {font-size : 40px;}
+}
+
+Animation Property
+1) animation-name
+2) animation-duration
+3) animation-timing-function
+4) animation-delay
+5) animation-itration-count
+6) animation-direction
+
+Animation Shorthand
+animation: myName 2s linear 3s infinite normal
+
+% in Animate
+
+@keyframe myName{
+    0% {font-size : 20px;}
+    50% {font-size : 30px;}
+    100% {font-size : 40px;}
+}
+*/
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* animation-name: colorAnimate;
+    animation-duration: 2s; */
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    /* animation: colorAnimate 2s ease-in 1s infinite normal; */
+    animation: colorAnimate1 2s ease-in 1s infinite normal;
+}
+
+@keyframes colorAnimate {
+    /* from {background-color: aqua;}
+    to {background-color: red;} */
+    from {
+        left: 0px;
+        background-color: yellow;
+    }
+    to {
+        left: 200px;
+        background-color: red;
+        color: white;
+    }
+}
+
+@keyframes colorAnimate1 {
+    0% {
+        left: 0px;
+        background-color: yellow;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        left: 200px;
+        background-color: red;
+        color: white;
+    }
+}
